@@ -12,11 +12,7 @@ public HObject ConvertBMP(Bitmap bitmap)
     return halconImage;
 }
 
-// string --> HTuple   
-// HTuple --> string 强制类型转换
-// convert.toInt32()
-HTuple myThresh = Int32.Parse(textBox3.Text);
-
+//*********
 
 // 对话框保存图片
 private void ToolStripMenuItem_Click(object sender, EventArgs e)
